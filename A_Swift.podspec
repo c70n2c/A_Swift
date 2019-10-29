@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cicic1c1@icloud.com/A_Swift'
+  s.homepage         = 'https://github.com/chancc-no/A_swift.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cicic1c1@icloud.com' => 'cicic1c1@icloud.com' }
-  s.source           = { :git => 'https://github.com/cicic1c1@icloud.com/A_Swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/chancc-no/A_swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'A_Swift/Classes/**/*'
+  s.source_files = 'Sources/Classes/**/*'
   
   # s.resource_bundles = {
   #   'A_Swift' => ['A_Swift/Assets/*.png']
