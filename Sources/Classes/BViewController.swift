@@ -1,24 +1,23 @@
 //
-//  ViewController.swift
+//  BViewController.swift
 //  A_Swift
 //
-//  Created by zowell on 2019/10/29.
+//  Created by zowell on 2019/10/30.
 //  Copyright © 2019 Chancc. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class BViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .yellow
     }
     
+
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        present(AViewController(), animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
-
-
 }
-

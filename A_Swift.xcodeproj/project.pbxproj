@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24144D90236936C100A2E916 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24144D8F236936C100A2E916 /* BViewController.swift */; };
 		24E2B0C423680BD30006DF68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2B0C323680BD30006DF68 /* AppDelegate.swift */; };
 		24E2B0C623680BD30006DF68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2B0C523680BD30006DF68 /* SceneDelegate.swift */; };
 		24E2B0C823680BD30006DF68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2B0C723680BD30006DF68 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24144D8F236936C100A2E916 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		24E2B0C023680BD30006DF68 /* A_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E2B0C323680BD30006DF68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24E2B0C523680BD30006DF68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				24E2B0E423680F470006DF68 /* AViewController.swift */,
+				24144D8F236936C100A2E916 /* BViewController.swift */,
 				24E2B15723682DB60006DF68 /* Target_A.swift */,
 			);
 			path = Classes;
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E2B15823682DB60006DF68 /* Target_A.swift in Sources */,
+				24144D90236936C100A2E916 /* BViewController.swift in Sources */,
 				24E2B0C823680BD30006DF68 /* ViewController.swift in Sources */,
 				24E2B0C423680BD30006DF68 /* AppDelegate.swift in Sources */,
 				24E2B0C623680BD30006DF68 /* SceneDelegate.swift in Sources */,
@@ -372,6 +376,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7TERFXEST;
 				INFOPLIST_FILE = A_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -390,6 +395,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7TERFXEST;
 				INFOPLIST_FILE = A_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
