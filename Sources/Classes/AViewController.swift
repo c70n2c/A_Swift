@@ -11,15 +11,19 @@ import UIKit
 class AViewController: UIViewController {
 
     
-    var button: UIButton = {
+    var buttonBlue: UIButton = {
         let button = UIButton()
+        button.backgroundColor = .blue
         button.frame = CGRect(x: 100, y: 200, width: 80, height: 80)
+        button.addTarget(self, action: #selector(didClick), for: .touchUpInside)
         return button
     }()
     
-    var button1: UIButton = {
+    var buttonYellow: UIButton = {
         let button = UIButton()
         button.frame = CGRect(x: 188, y: 200, width: 80, height: 80)
+        button.backgroundColor = .yellow
+        button.addTarget(self, action: #selector(dismissPresent), for: .touchUpInside)
         return button
     }()
     
@@ -27,24 +31,16 @@ class AViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = .red
-        
-        button.backgroundColor = .blue
-        
-        button1.backgroundColor = .yellow
-        
-        button.addTarget(self, action: #selector(didClick1), for: .touchUpInside)
-        view.addSubview(button)
-        
-        button1.addTarget(self, action: #selector(didClick2), for: .touchUpInside)
-        view.addSubview(button1)
+        view.addSubview(buttonBlue)
+        view.addSubview(buttonYellow)
     }
     
 
-    @objc func didClick1() {
+    @objc func didClick() {
         present(BViewController(), animated: true, completion: nil)
     }
     
-    @objc func didClick2() {
+    @objc func dismissPresent() {
         dismiss(animated: true, completion: nil)
     }
     
